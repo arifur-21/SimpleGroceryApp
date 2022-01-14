@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".NewProductActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/imag3"
+        android:scaleType="fitXY"
+        android:id="@+id/newProductImageId"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#2EC534"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Sorry There is no new product yet"
+        android:id="@+id/newProductTvId"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

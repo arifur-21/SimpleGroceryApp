@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        tools:context=".ProfileActivity">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/profileImgId" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter your Name"
+            android:background="@drawable/edit_text_bh"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:id="@+id/profileUserNameId" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter your Email"
+            android:background="@drawable/edit_text_bh"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:id="@+id/profileEmailNameId" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:hint="Enter your Phone Number"
+            android:background="@drawable/edit_text_bh"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_iphone_24"
+            android:drawablePadding="10dp"
+            android:id="@+id/profilePhoneId" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter your Address"
+            android:background="@drawable/edit_text_bh"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
+            android:drawablePadding="10dp"
+            android:id="@+id/profileAddressId" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Upload"
+            android:id="@+id/proidleUploadBtnId" />
+
+    </LinearLayout>
+</layout>

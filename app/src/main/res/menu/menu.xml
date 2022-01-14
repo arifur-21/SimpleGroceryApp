@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/honeMenuId"
+        />
+    <item android:title="Profile"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/profileMenuId"/>
+    <item android:title="Category"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:id="@+id/categoryMenuId"
+        />
+    <item android:title="Offers"
+        android:id="@+id/offerMenuId"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="New Product"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/newProductMenuId"/>
+    <item android:title="Orders"
+        android:id="@+id/orderMenuId"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Carts"
+        android:id="@+id/cartMenuId"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="LogOut"
+        android:id="@+id/logOutId"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item android:title="Customer Care"
+        android:id="@+id/customerCareId"
+        android:icon="@drawable/ic_baseline_home_24"/>
+</menu>

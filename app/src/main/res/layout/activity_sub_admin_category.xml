@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient_bg"
+        tools:context=".admincalss.SubAdminCategoryActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/vegetabel"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:id="@+id/sub_adminCateImg" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter your product name"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bh"
+            android:id="@+id/sub_adminCateProductName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bh"
+            android:hint="Enter your product price"
+            android:id="@+id/sub_adminProductPrice" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bh"
+            android:hint="Enter your product description"
+            android:id="@+id/sub_adminProductdescription" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bh"
+            android:hint="Enter your product Rating"
+            android:id="@+id/adminProductRatingId" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bh"
+            android:hint="Enter your product type"
+            android:id="@+id/adminProductTypeId" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Product"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="30dp"
+            android:id="@+id/adminUploadProductBtnId" />
+
+    </LinearLayout>
+</layout>
